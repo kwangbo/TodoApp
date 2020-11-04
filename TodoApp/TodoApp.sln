@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{D4EFE769-7632-4807-B5B3-F3E8F9F0C146}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{D4EFE769-7632-4807-B5B3-F3E8F9F0C146}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{62358A42-D711-4D2A-97F7-107F587C59B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleApp", "TodoApp.ConsoleApp\TodoApp.ConsoleApp.csproj", "{23886141-3F00-4F80-BD41-689E8969C20F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.ConsoleApp", "TodoApp.ConsoleApp\TodoApp.ConsoleApp.csproj", "{23886141-3F00-4F80-BD41-689E8969C20F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleAppFile", "TodoApp.ConsoleAppFile\TodoApp.ConsoleAppFile.csproj", "{3C1EA82C-D7ED-42F0-AE02-2FFF26B39DFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{23886141-3F00-4F80-BD41-689E8969C20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23886141-3F00-4F80-BD41-689E8969C20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23886141-3F00-4F80-BD41-689E8969C20F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C1EA82C-D7ED-42F0-AE02-2FFF26B39DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1EA82C-D7ED-42F0-AE02-2FFF26B39DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1EA82C-D7ED-42F0-AE02-2FFF26B39DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1EA82C-D7ED-42F0-AE02-2FFF26B39DFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{23886141-3F00-4F80-BD41-689E8969C20F} = {62358A42-D711-4D2A-97F7-107F587C59B9}
+		{3C1EA82C-D7ED-42F0-AE02-2FFF26B39DFD} = {62358A42-D711-4D2A-97F7-107F587C59B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E75F5369-B1AE-4933-ABE2-A946CEAEC3B6}
