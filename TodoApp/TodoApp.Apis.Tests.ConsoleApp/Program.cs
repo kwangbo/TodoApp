@@ -11,7 +11,7 @@ namespace TodoApp.Apis.Tests.Consoleapp
     {
         static async Task Main(string[] args)
         {
-            const string url = "https://localhost:44397/api/todos";
+            const string url = "https://localhost:44397/Api/Todos";
 
             using (var client = new HttpClient())
             {
